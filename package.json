@@ -1,0 +1,41 @@
+{
+  "name": "generator-initium",
+  "version": "0.0.1",
+  "description": "A generator for Yeoman",
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "homepage": "https://github.com/creativeaura/generator-initium",
+  "bugs": "https://github.com/creativeaura/generator-initium/issues",
+  "author": {
+    "name": "Gaurav Jassal",
+    "email": "gaurav@jassal.me",
+    "url": "https://github.com/creativeaura"
+  },
+  "main": "app/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/creativeaura/generator-initium.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "yeoman-generator": "~0.14.0"
+  },
+  "devDependencies": {
+    "mocha": "~1.14.0"
+  },
+  "peerDependencies": {
+    "yo": ">=1.0.0"
+  },
+  "engines": {
+    "node": ">=0.8.0",
+    "npm": ">=1.2.10"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ]
+}
